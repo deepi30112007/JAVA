@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class student{
+  public static void main(String args[]){
+    Scanner sc=new Scanner(System.in);
+    string name=sc.next();
+    int rollno=sc.nextInt();
+    int mark1=sc.nextInt();
+    int mark2=sc.nextInt();
+    int total;
+    total=mark1+mark2+mark3;
+    System.out.println("total");
+    
+  }
+}
+      

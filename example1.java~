@@ -1,0 +1,6 @@
+public class example{
+  public static void main(string args[]){
+    system.out.println("welcome to java");
+   
+   }
+ }    
