@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class stud{
+  int sno;
+  String name;
+  stud(inta,Stringb){
+    sno=a;
+    name=b;
+  }
+  public void display(){
+    System.out.println("Register no:"+sno);
+    System.out.println("student name:"+name);
+  }
+}
+public class demo1{
+  public static void main(String args[]){
+    Scanner sc=new Scanner(System.in);
+    int c=sc.nextInt();
+    String d=sc.nextInt();
+     stud s1=new stud(100,"abc");
+     s1.disp();
+  }
+}
+  
