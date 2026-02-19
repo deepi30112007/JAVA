@@ -1,0 +1,68 @@
+import java.util.Scanner;
+class student {
+ String name;
+ int rollno;
+ String department;
+ student(String a,int b,String c){
+  name=a;
+  rollno=b;
+  department=c;
+}
+ void display 1(){
+   System.out.println("Enter your name: "+name);
+   System.out.println("Enter your rollno: "+rollno);
+   System.out.println("Enter your department: "+department);
+  }
+}
+class Mark extends Student {
+  int mark1, mark2,mark3,tot;
+  float avg;
+  String res;
+  mark(String name,int rollno,String department,int mark1,int mark2,int mark3){
+    super(name,rollno,department);
+    mark1=m1;
+    mark2=m2;
+    mark3=m3;
+  }
+  public void calculate(){
+    tot=mark1+mark2+mark3;
+    avg=tot/3;
+    if(mark1>60&&mark2>60&&mark3>60){
+      res="pass"
+    }
+    else
+      res="fail"
+  }
+  public void display 2(){
+    System.out.println("mark1"+mark1);
+    System.out.println("mark2"+mark2);
+    System.out.println("mark3"+mark3);
+    System.out.println("Total"+tot);
+    System.out.println("Avgerage"+avg);
+    System.out.println("Result"+res);
+  }
+}
+public class details{
+  public static void main(String[]args){
+    Scanner sc=new Scanner(System.in);
+    System.out.println("enter your name");
+    String name=sc.next();
+    System.out.println("enter your rollno");
+    int rollno=sc.nextInt();
+    System.out.println("enter your department");
+    String department=sc.next();
+    System.out.println("enter three subjects mark:");
+    int mark1=sc.nextInt();
+    int mark2=sc.nextInt();
+    int mark3=sc.nextInt();
+    mark s1=new mark(name,rollno,department,mark1,mark2,mark3);
+    s1.display 1();
+    s1.calculate();
+    s1.display 2;
+  }
+}
+    
+
+    
+    
+    
